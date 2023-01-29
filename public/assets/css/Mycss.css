@@ -1,0 +1,245 @@
+
+.bg_Image{
+    background-color: rgb(251, 251, 251);
+    padding: 10px;
+}
+.login{
+    /* background-color: rgba(240, 240, 240, 0); */
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px 2px black;
+}
+.login h1, h2{
+    text-align: center;
+    margin-top: 10px;
+}
+.login label{
+    color: black;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.login input{
+    border-radius: 10px;
+}
+
+.login button{
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(12, 246, 62);
+    font-size: 22px;
+    font-weight: 600;
+    box-shadow: 0px 0px 5px 0px ;
+}
+
+
+
+
+/* Sign Up */
+.Main_Sign{
+    background-color: rgb(249, 248, 248);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+.Second_Sign{
+    /* padding-top: 50px; */
+    margin: auto;
+    /* margin-top: 10rem; */
+    width: 70%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px 2px black;
+}
+.Second_Sign h2{
+    text-decoration: underline;
+}
+.Second_Sign label{
+    color: black;
+    font-size: 16px;
+}
+.Second_Sign input{
+    border-radius: 10px;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.btn_sign button{
+    width: 100%;
+    background-color: blue;
+    font-size: 22px;
+    border-radius: 10px;
+    border: none;
+    /* padding: 5px; */
+}
+.btn_sign p a{
+    font-size: 16px;
+    color: black;
+}
+
+
+/* Admin section */
+.Admin-heading h5{
+    color: black;
+    text-align: center;
+    background-color:aqua;
+    padding: 10px;
+    border-radius: 10px;
+}
+.admin-image{
+    text-align: center;
+}
+.admin-image img{
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px black;
+}
+
+.update-profile{
+    text-align: center;
+}
+.update-profile button{
+    width: 100%;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+}
+.update-profile button:hover{
+    background-color: red;
+    color: white;
+}
+/* Profile Page */
+.profile_user{
+    margin-top: 70px;
+}
+
+#btncart, #btnwishlist{
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    width: 48%;
+    text-align: center;
+    background-color: blue;
+    font-size: 18px;
+}
+#inqty{
+    width: 50%;
+    font-size: 20px;
+    color: black;
+}
+#btnplus, #btnminus{
+    color: black;
+    width: 300%;
+    background-color: rgb(169, 169, 166);
+    border: none;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* cart table */
+.mytable{
+    width: 100%;
+}
+
+.overflow{
+    overflow-x: auto;
+}
+
+.mytable th, td{
+    border: 1px solid rgb(239, 239, 239);
+    color: black;
+}
+.mytable img{
+    height: 70px;
+    width: 60px;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.icon{
+    font-size: 30px;
+}
+
+
+.btnremove{
+    background:none;
+    outline: none;
+    width: 40px;
+    border: none;
+    color: rgb(145, 34, 34);
+}
+
+/* slide */
+.carousel-indicators{
+    position:absolute;
+    right:0;
+    bottom:-20px;
+    left:0;
+    z-index:15;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-pack:center;
+    justify-content:center;
+    padding-left:0;
+    margin-right:15%;
+    margin-left:15%;
+    list-style:none
+}
+.carousel-indicators li{
+    position:relative;
+    -ms-flex:0 1 auto;
+    flex:0 1 auto;
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    margin-right:3px;
+    margin-left:3px;
+    text-indent:-999px;
+    background-color:rgba(168, 165, 165, 0.5)
+}
+.carousel-indicators li::before{
+    position:absolute;
+    top:-10px;
+    left:0;
+    display:inline-block;
+    width:100%;
+    height:10px;
+    content:""
+}
+.carousel-indicators li::after{
+    position:absolute;
+    bottom:-10px;
+    left:0;
+    display:inline-block;
+    width:100%;
+    height:10px;
+    content:""}
+.carousel-indicators .active{
+    background-color:rgb(52, 50, 50)
+}
+
+@media screen and (max-width : 810px) {
+    .login{
+        background-color: rgb(240, 240, 240);
+        margin: auto;
+        width: 100%;
+    }
+    .Second_Sign{
+        margin: auto;
+        width: 100%;
+    }
+}
+
+
+.my_nav{
+    background-color: rgb(235, 235, 244);
+    color: rgb(250, 13, 13);
+}

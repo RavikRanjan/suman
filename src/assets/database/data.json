@@ -1,0 +1,662 @@
+{
+  "maincategory": [
+    {
+      "id": 1,
+      "name": "Male"
+    },
+    {
+      "id": 2,
+      "name": "Female"
+    },
+    {
+      "name": "Kinds",
+      "id": 3
+    },
+    {
+      "name": "Girls",
+      "id": 4
+    }
+  ],
+  "subcategory": [
+    {
+      "id": 1,
+      "name": "Shoe"
+    },
+    {
+      "id": 2,
+      "name": "Child Shoe"
+    },
+    {
+      "id": 3,
+      "name": "Girls Shoe"
+    },
+    {
+      "id": 4,
+      "name": "Women Shoe"
+    },
+    {
+      "id": 5,
+      "name": "Men Shoe"
+    },
+    {
+      "id": 6,
+      "name": "Sliper"
+    },
+    {
+      "id": 7,
+      "name": "Men Sliper"
+    },
+    {
+      "id": 8,
+      "name": "Women Sliper"
+    },
+    {
+      "id": 9,
+      "name": "Child Sliper"
+    }
+  ],
+  "brand": [
+    {
+      "id": 1,
+      "name": "NIke"
+    },
+    {
+      "id": 2,
+      "name": "Compas"
+    },
+    {
+      "id": 3,
+      "name": "Adidas"
+    },
+    {
+      "id": 4,
+      "name": "Reebok"
+    },
+    {
+      "id": 5,
+      "name": "Action"
+    },
+    {
+      "id": 6,
+      "name": "Gold Star"
+    },
+    {
+      "id": 7,
+      "name": "Paragon"
+    },
+    {
+      "name": "Spark",
+      "id": 8
+    },
+    {
+      "name": "Bata",
+      "id": 9
+    },
+    {
+      "name": "Flite",
+      "id": 10
+    },
+    {
+      "name": "Woodland",
+      "id": 11
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "name": "Girls Shoe Color white & Size 5",
+      "maincategory": "Kinds",
+      "subcategory": "Shoe",
+      "brand": "Spark",
+      "color": "White",
+      "size": "5",
+      "baseprice": 1500,
+      "discount": 15,
+      "finalprice": 1275,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "pic5.jpg",
+      "pic2": "pic6.jpg",
+      "pic3": "pic8.jpg",
+      "pic4": "pic7.jpg",
+      "pic5": "nikepic2.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Women Slipper size 6 & color black",
+      "maincategory": "Female",
+      "subcategory": "Women Shoe",
+      "brand": "Reebok",
+      "color": "Black",
+      "size": "6",
+      "baseprice": 599,
+      "discount": 20,
+      "finalprice": 479,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "pic21.jpeg",
+      "pic2": "pic22.jpeg",
+      "pic3": "product-7.png",
+      "pic4": "pic30.jpeg",
+      "pic5": "pic29.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Kinds shoe color red and size 6",
+      "maincategory": "Kinds",
+      "subcategory": "Child Shoe",
+      "brand": "Bata",
+      "color": "Red",
+      "size": "6",
+      "baseprice": 499,
+      "discount": 15,
+      "finalprice": 424,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "pic13.jpeg",
+      "pic2": "pic9.jpeg",
+      "pic3": "pic23.jpeg",
+      "pic4": "pic12.jpeg",
+      "pic5": "pic10.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Men shoe color white and size 7",
+      "maincategory": "Male",
+      "subcategory": "Men Shoe",
+      "brand": "Compas",
+      "color": "White",
+      "size": "7",
+      "baseprice": 1999,
+      "discount": 40,
+      "finalprice": 1199,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "pic1.jpeg",
+      "pic2": "pic4.jpg",
+      "pic3": "pic3.jpg",
+      "pic4": "pic2.jpeg",
+      "pic5": "pic3.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Women Slipper size 4 & color black",
+      "maincategory": "Female",
+      "subcategory": "Women Shoe",
+      "brand": "Action",
+      "color": "Black",
+      "size": "4",
+      "baseprice": 1000,
+      "discount": 45,
+      "finalprice": 550,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "pic14.jpeg",
+      "pic2": "pic15.jpeg",
+      "pic3": "pic16.jpeg",
+      "pic4": "pic20.jpeg",
+      "pic5": "pic17.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Kinds shoe color pink and size 3",
+      "maincategory": "Kinds",
+      "subcategory": "Child Shoe",
+      "brand": "Paragon",
+      "color": "Pink",
+      "size": "3",
+      "baseprice": 799,
+      "discount": 30,
+      "finalprice": 559,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "pic9.jpeg",
+      "pic2": "pic10.jpeg",
+      "pic3": "pic12.jpeg",
+      "pic4": "pic13.jpeg",
+      "pic5": "pic18.jpeg"
+    },
+    {
+      "id": 7,
+      "name": "Men shoe color white and size 9",
+      "maincategory": "Male",
+      "subcategory": "Men Shoe",
+      "brand": "Adidas",
+      "color": "White",
+      "size": "9",
+      "baseprice": 1899,
+      "discount": 45,
+      "finalprice": 1044,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "AdidasPic1.jpg",
+      "pic2": "AdidasPic2.jpg",
+      "pic3": "AdidasPic3.jpg",
+      "pic4": "AdidasPic4.jpg",
+      "pic5": "AdidasPic5.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Man Shoes Color black and size 8",
+      "maincategory": "Male",
+      "subcategory": "Men Shoe",
+      "brand": "Gold Star",
+      "color": "Black",
+      "size": "8",
+      "baseprice": 999,
+      "discount": 30,
+      "finalprice": 699,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "AdidasPic9.jpg",
+      "pic2": "AdidasPic7.jpg",
+      "pic3": "AdidasPic10.jpg",
+      "pic4": "AdidasPic11.jpg",
+      "pic5": "AdidasPic8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Female Shoes color white size 5",
+      "maincategory": "Female",
+      "subcategory": "Women Shoe",
+      "brand": "Spark",
+      "color": "Black",
+      "size": "5",
+      "baseprice": 1799,
+      "discount": 25,
+      "finalprice": 1349,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "conversepic11.jpg",
+      "pic2": "conversepic13.jpg",
+      "pic3": "conversepic14.jpg",
+      "pic4": "conversepic15.jpg",
+      "pic5": "conversepic12.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Kinds shoe color white and size 4",
+      "maincategory": "Kinds",
+      "subcategory": "Child Shoe",
+      "brand": "Bata",
+      "color": "White",
+      "size": "4",
+      "baseprice": 899,
+      "discount": 50,
+      "finalprice": 449,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "pic9.jpeg",
+      "pic2": "conversepic6.jpg",
+      "pic3": "pic1.jpg",
+      "pic4": "conversepic8.jpg",
+      "pic5": "partyshoepic1.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Girls PartyWear Shoes color white and size 5",
+      "maincategory": "Girls",
+      "subcategory": "Girls Shoe",
+      "brand": "Bata",
+      "color": "white",
+      "size": "5",
+      "baseprice": 1299,
+      "discount": 45,
+      "finalprice": 714,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "partyshoepic1.jpg",
+      "pic2": "pic15.jpeg",
+      "pic3": "product-6.png",
+      "pic4": "pic1.jpg",
+      "pic5": "product-8.png"
+    },
+    {
+      "id": 12,
+      "name": "Men shoe color white and size 6",
+      "maincategory": "Male",
+      "subcategory": "Men Shoe",
+      "brand": "Woodland",
+      "color": "White",
+      "size": "6",
+      "baseprice": 1499,
+      "discount": 30,
+      "finalprice": 1049,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "nikepic1.jpg",
+      "pic2": "nikepic2.jpg",
+      "pic3": "nikepic5.jpg",
+      "pic4": "nikepic4.jpg",
+      "pic5": "nikepic3.jpg"
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "name": "Ravi Kumar",
+      "username": "raviranjan",
+      "email": "rk197146@gmail.com",
+      "phone": "9955182103",
+      "password": "Ravi@123",
+      "addressline1": "12",
+      "addressline2": "Chousa",
+      "addressline3": "Tapua Tola",
+      "pin": "852213848",
+      "city": "Madhepura",
+      "state": "Bihar",
+      "pic": "person_1.jpg",
+      "role": "User"
+    },
+    {
+      "id": 2,
+      "name": "Nisha Rani",
+      "username": "nisharani",
+      "email": "nk2046777@gmail.com",
+      "phone": "6206492980",
+      "password": "Nisha@123",
+      "addressline1": "ward 14",
+      "addressline2": "Chousa Madhepura",
+      "addressline3": "Laxminiya Tola ",
+      "pin": "852213",
+      "city": "Madhepura",
+      "state": "Bihar",
+      "pic": "nisha.jpg",
+      "role": "Admin"
+    },
+    {
+      "id": 3,
+      "name": "Ravi Kumar",
+      "username": "ravikr",
+      "email": "rk2787650@gmail.com",
+      "phone": "6201446848",
+      "password": "Nisha@123",
+      "addressline1": "ward 13",
+      "addressline2": "tapua chousa",
+      "addressline3": "Tapua tola chousa madhepura",
+      "pin": "852213",
+      "city": "madhepura",
+      "state": "bihar",
+      "pic": "p34.jpg",
+      "role": "User"
+    }
+  ],
+  "cart": [
+    {
+      "id": 0
+    },
+    {
+      "productid": 4,
+      "userid": "2",
+      "name": "Men shoe color white and size 7",
+      "color": "White",
+      "size": "7",
+      "price": 1199,
+      "qty": 1,
+      "total": 1199,
+      "pic": "pic1.jpeg",
+      "id": 1
+    },
+    {
+      "productid": 12,
+      "userid": "2",
+      "name": "Men shoe color white and size 6",
+      "color": "White",
+      "size": "6",
+      "price": 1049,
+      "qty": 1,
+      "total": 1049,
+      "pic": "nikepic1.jpg",
+      "id": 2
+    },
+    {
+      "productid": 3,
+      "userid": "1",
+      "name": "Kinds shoe color red and size 6",
+      "color": "Red",
+      "size": "6",
+      "price": 424,
+      "qty": 1,
+      "total": 424,
+      "pic": "pic13.jpeg",
+      "id": 3
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 0
+    },
+    {
+      "productid": 11,
+      "userid": "2",
+      "name": "Girls PartyWear Shoes color white and size 5",
+      "color": "white",
+      "size": "5",
+      "price": 714,
+      "pic": "partyshoepic1.jpg",
+      "id": 1
+    },
+    {
+      "productid": 7,
+      "userid": "1",
+      "name": "Men shoe color white and size 9",
+      "color": "White",
+      "size": "9",
+      "price": 1044,
+      "pic": "AdidasPic1.jpg",
+      "id": 2
+    }
+  ],
+  "checkout": [
+    {
+      "id": 0,
+      "paymentstatus": "Done",
+      "orderstatus": "Delivered"
+    },
+    {
+      "userid": "2",
+      "paymentmode": "COD",
+      "orderstatus": "Order Placed",
+      "paymentstatus": "Pending",
+      "time": "2023-01-29T19:34:07.612Z",
+      "totalAmount": 1587,
+      "shippingAmount": 0,
+      "finalAmount": 1587,
+      "products": [
+        {
+          "productid": 3,
+          "userid": "2",
+          "name": "Kinds shoe color red and size 6",
+          "color": "Red",
+          "size": "6",
+          "price": 424,
+          "qty": 1,
+          "total": 424,
+          "pic": "pic13.jpeg",
+          "id": 2
+        },
+        {
+          "productid": 10,
+          "userid": "2",
+          "name": "Kinds shoe color white and size 4",
+          "color": "White",
+          "size": "4",
+          "price": 449,
+          "qty": 1,
+          "total": 449,
+          "pic": "pic9.jpeg",
+          "id": 4
+        },
+        {
+          "productid": 11,
+          "userid": "2",
+          "name": "Girls PartyWear Shoes color white and size 5",
+          "color": "white",
+          "size": "5",
+          "price": 714,
+          "qty": 1,
+          "total": 714,
+          "pic": "partyshoepic1.jpg",
+          "id": 6
+        }
+      ],
+      "id": 1
+    },
+    {
+      "userid": "1",
+      "paymentmode": "Net Banking",
+      "orderstatus": "Order Placed",
+      "paymentstatus": "Pending",
+      "time": "2023-01-29T19:36:39.948Z",
+      "totalAmount": 2942,
+      "shippingAmount": 0,
+      "finalAmount": 2942,
+      "products": [
+        {
+          "productid": 8,
+          "userid": "1",
+          "name": "Man Shoes Color black and size 8",
+          "color": "Black",
+          "size": "8",
+          "price": 699,
+          "qty": 1,
+          "total": 699,
+          "pic": "AdidasPic9.jpg",
+          "id": 3
+        },
+        {
+          "productid": 4,
+          "userid": "1",
+          "name": "Men shoe color white and size 7",
+          "color": "White",
+          "size": "7",
+          "price": 1199,
+          "qty": 1,
+          "total": 1199,
+          "pic": "pic1.jpeg",
+          "id": 4
+        },
+        {
+          "productid": 7,
+          "userid": "1",
+          "name": "Men shoe color white and size 9",
+          "color": "White",
+          "size": "9",
+          "price": 1044,
+          "qty": 1,
+          "total": 1044,
+          "pic": "AdidasPic1.jpg",
+          "id": 5
+        }
+      ],
+      "id": 2
+    },
+    {
+      "userid": "1",
+      "paymentmode": "COD",
+      "orderstatus": "Order Placed",
+      "paymentstatus": "Pending",
+      "time": "2023-01-29T19:38:57.871Z",
+      "totalAmount": 1193,
+      "shippingAmount": 0,
+      "finalAmount": 1193,
+      "products": [
+        {
+          "productid": 11,
+          "userid": "1",
+          "name": "Girls PartyWear Shoes color white and size 5",
+          "color": "white",
+          "size": "5",
+          "price": 714,
+          "qty": 1,
+          "total": 714,
+          "pic": "partyshoepic1.jpg",
+          "id": 3
+        },
+        {
+          "productid": 2,
+          "userid": "1",
+          "name": "Women Slipper size 6 & color black",
+          "color": "Black",
+          "size": "6",
+          "price": 479,
+          "qty": 1,
+          "total": 479,
+          "pic": "pic21.jpeg",
+          "id": 4
+        }
+      ],
+      "id": 3
+    }
+  ],
+  "contact": [
+    {
+      "name": "Ravi Kumar",
+      "email": "rk2787650@gmail.com",
+      "phone": "9955182103",
+      "subject": "Remember Me",
+      "message": "Hello Ravi, your comming  birthday 21 september so rember you.... ",
+      "status": "Done",
+      "time": "2023-01-20T15:37:01.205Z",
+      "id": 1
+    },
+    {
+      "name": "Nisha Rani",
+      "email": "nk2046777@gmail.com",
+      "phone": "6201446841",
+      "subject": "Reminder for Ravi send me message",
+      "message": "Hello Nisha, your comming  birthday 23 November so rember you.... ",
+      "status": "Done",
+      "time": "2023-01-20T15:38:12.318Z",
+      "id": 2
+    },
+    {
+      "name": "Nisha Kumari",
+      "email": "nk2046777@gmail.com",
+      "phone": "6201446848",
+      "subject": "I love you Nisha",
+      "message": "Main Tumse se bahut pyar karta hun abhi bhi teri shadi ho gya to kya ho gya aesa nhi h ki main teri life me rukavat kam kr rha hu ",
+      "status": "Done",
+      "time": "2023-01-20T15:59:39.306Z",
+      "id": 3
+    },
+    {
+      "name": "mnbjhdmvjh",
+      "email": "nk2046777@gmail.com",
+      "phone": "6206492980",
+      "subject": "I love you Nisha",
+      "message": "sdfberuhguier neuihgiu",
+      "status": "Active",
+      "time": "2023-01-26T09:48:39.778Z",
+      "id": 4
+    },
+    {
+      "name": "Ravi Kumar",
+      "email": "rk2787650@gmail.com",
+      "phone": "6206492980",
+      "subject": "I love you Nisha",
+      "message": "DNFUHRU",
+      "status": "Done",
+      "time": "2023-01-26T10:44:07.666Z",
+      "id": 5
+    }
+  ],
+  "newslatter": [
+    {
+      "email": "nk2046777@gmail.com",
+      "id": 1
+    },
+    {
+      "email": "rk2787650@gmail.com",
+      "id": 2
+    },
+    {
+      "email": "rk197146@gmail.com",
+      "id": 3
+    },
+    {
+      "email": "misharavi@gmail.com",
+      "id": 4
+    }
+  ]
+}
